@@ -130,8 +130,6 @@ local NEVERLOSE = {
 	_Name="NEVERLOSE"
 }
 
-print(NEVERLOSE._Name..":",NEVERLOSE._Version..':',[[https://neverlose.cc/]],": UI BY OWNER BEDOL HUB","__ui")
-
 function NEVERLOSE:Theme(name)
 	name = tostring(name or "original"):lower()
 	if name == "original" then
@@ -1352,8 +1350,9 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				Slider.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				Slider.BorderSizePixel = 0
 				Slider.Position = UDim2.new(0.0500000231, 0, 0.601014614, 0)
-				Slider.Size = UDim2.new(0.899999976, 0, -0.351014495, 0)
-				Slider.ZIndex = 5
+				Slider.Size = UDim2.new(0.9, 0, 0.05, 0)  -- Wider and taller slider
+Slider.ZIndex = 5
+
 
 				UIAspectRatioConstraint.Parent = Slider
 				UIAspectRatioConstraint.AspectRatio = 7.000
