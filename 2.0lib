@@ -2168,13 +2168,15 @@ function NEVERLOSE:Notification()
 		local CloseButton = Instance.new("ImageButton")
 
 		Notify.Name = "Notify"
-		Notify.Parent = MainFrame
-		Notify.BackgroundColor3 = NEVERLOSE.Themes.SectionColor
-		Notify.BackgroundTransparency = 0.100
-		Notify.BorderColor3 = Color3.fromRGB(0, 0, 0)
-		Notify.BorderSizePixel = 0
-		Notify.ClipsDescendants = true
-		Notify.Size = UDim2.new(0.75,0,0,0)
+Notify.Parent = MainFrame
+Notify.BackgroundColor3 = Color3.fromRGB(50, 50, 50) 
+Notify.BackgroundTransparency = 0.100
+Notify.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Notify.BorderSizePixel = 0
+Notify.ClipsDescendants = true
+Notify.Size = UDim2.new(0.5, 0, 0, 50)
+
+
 
 		UICorner.CornerRadius = UDim.new(0, 3)
 		UICorner.Parent = Notify
