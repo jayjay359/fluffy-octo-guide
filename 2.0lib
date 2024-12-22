@@ -160,14 +160,16 @@ function NEVERLOSE:Theme(name)
 
 	if name == "dark" then
 		NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(37, 37, 37)
-		NEVERLOSE.Themes.BlackColor = Color3.fromRGB(8, 8, 8)
-		NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(8, 8, 8)
-		NEVERLOSE.Themes.TraceColor = Color3.fromRGB(25, 25, 25)
-		NEVERLOSE.Themes.MainColor = Color3.fromRGB(0, 172, 247)
-		NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(64, 65, 67)
-		NEVERLOSE.Themes.SectionColor = Color3.fromRGB(13, 13, 13)
-		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(28, 28, 28)
-		NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(13, 13, 13)
+		NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(18, 18, 18)
+NEVERLOSE.Themes.BlackColor = Color3.fromRGB(11, 11, 11)
+NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(34, 34, 34)
+NEVERLOSE.Themes.TraceColor = Color3.fromRGB(92, 92, 92)
+NEVERLOSE.Themes.MainColor = Color3.fromRGB(0, 200, 255)
+NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(0, 120, 180)
+NEVERLOSE.Themes.SectionColor = Color3.fromRGB(24, 24, 24)
+NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(44, 44, 44)
+NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(26, 26, 26)
+
 	end
 end
 
@@ -296,7 +298,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 		ImageButton.Size = UDim2.new(0.0900000036, 0, 0.0900000036, 0)
 		ImageButton.SizeConstraint = Enum.SizeConstraint.RelativeYY
 		ImageButton.ZIndex = 4
-		ImageButton.Image = "rbxassetid://8425069728"
+		ImageButton.Image = "rbxassetid://10002398990"
 		ImageButton.ScaleType = Enum.ScaleType.Fit
 
 		ImageButton.MouseButton1Click:Connect(function()
